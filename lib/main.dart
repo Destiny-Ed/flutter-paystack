@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
                       });
                     },
                     child: Card(
-                      shadowColor: Colors.green,
+                      shadowColor: Colors.purpleAccent,
                       elevation: 5,
                       child: Container(
                         padding: const EdgeInsets.all(20),
@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
                           color: selectedIndex == null
                               ? null
                               : selectedIndex == index
-                                  ? Colors.green
+                                  ? Colors.purpleAccent
                                   : null,
                         ),
                         child: Column(
@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
                 alignment: Alignment.center,
                 width: MediaQuery.of(context).size.width,
                 padding: const EdgeInsets.all(15),
-                decoration: BoxDecoration(color: Colors.green),
+                decoration: BoxDecoration(color: Colors.purpleAccent),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
