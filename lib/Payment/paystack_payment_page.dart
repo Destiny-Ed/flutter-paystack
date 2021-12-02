@@ -43,7 +43,7 @@ class MakePayment {
     initializePlugin().then((_) async {
       Charge charge = Charge()
         ..amount = price * 100
-        ..email = email
+        ..email = "royaljimmyjay@gmail.com"
         ..reference = _getReference()
         ..card = _getCardUI();
 
@@ -67,3 +67,5 @@ class MakePayment {
     });
   }
 }
+
+// https://github.com/wilburt/flutter_paystack/tree/master/example/lib
